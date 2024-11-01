@@ -1,0 +1,186 @@
+[
+    {
+      "Name": "Unity3D",
+      "Description": "En spelmotor som används för att skapa 3D-visualiseringar och simuleringar.",
+      "Categories": ["Visualisering", "3D-modellering"],
+      "Link": "Unity",
+      "Example": "KistaLimitless",
+      "Users": ["Arkitekter", "Stadsplanerare"]
+    },
+    {
+      "Name": "Unreal Engine",
+      "Description": "En avancerad 3D-spelmotor som används för högupplösta visualiseringar och simuleringar.",
+      "Categories": ["Visualisering", "Simulering"],
+      "Link": "Unreal",
+      "Example": "Project Anywhere",
+      "Users": ["Arkitekter", "Stadsplanerare", "Ingenjörer"]
+    },
+    {
+      "Name": "Esri",
+      "Description": "Ledande inom GIS-programvara för kartläggning och analys av geografisk information.",
+      "Categories": ["GIS", "Databas"],
+      "Link": "Esri",
+      "Example": "Digital Twin Rotterdam",
+      "Users": ["Kommuner", "Teknikkonsulter"]
+    },
+    {
+      "Name": "ArcGIS",
+      "Description": "En plattform för kartläggning och rumslig analys.",
+      "Categories": ["GIS", "Visualisering"],
+      "Link": "ArcGIS",
+      "Example": "https://urban.arcgis.com/",
+      "Users": ["Kommuner", "Teknikkonsulter"]
+    },
+    {
+      "Name": "Smart Visualizer",
+      "Description": "En plattform för att skapa 3D-modeller för stadsutveckling och byggnadsplanering.",
+      "Categories": ["3D-modellering", "Visualisering"],
+      "Link": "Complete 3D - Complete 3D",
+      "Example": "-",
+      "Users": ["Arkitekter", "Ingenjörer"]
+    },
+    {
+      "Name": "OpenCities Planner (Bentley)",
+      "Description": "En molnbaserad plattform för stadsplanering och 3D-visualisering av städer.",
+      "Categories": ["Visualisering", "GIS"],
+      "Link": "OpenCities Planner",
+      "Example": "Helsinki 3D | City of Helsinki",
+      "Users": ["Kommuner", "Teknikkonsulter"]
+    },
+    {
+      "Name": "ArcGIS Urban",
+      "Description": "En GIS-baserad plattform från Esri för stadsplanering och visualisering av städer.",
+      "Categories": ["GIS", "Visualisering"],
+      "Link": "",
+      "Example": "Utrecht Smart City",
+      "Users": ["Stadsplanerare", "Kommuner"]
+    },
+    {
+      "Name": "Potree",
+      "Description": "Ett verktyg för att visualisera punktmoln från laserskanning i 3D.",
+      "Categories": ["Visualisering"],
+      "Link": "Potree",
+      "Example": "",
+      "Users": ["Ingenjörer", "Teknikkonsulter"]
+    },
+    {
+      "Name": "Sketchfab",
+      "Description": "En plattform för att visa och dela 3D-modeller online.",
+      "Categories": ["3D-modellering", "Visualisering"],
+      "Link": "Sketchfab",
+      "Example": "NYC 3D Model",
+      "Users": ["Arkitekter", "Stadsplanerare"]
+    },
+    {
+      "Name": "QGIS",
+      "Description": "Ett öppet GIS-system för analys och visualisering av geografisk information.",
+      "Categories": ["GIS", "Databas"],
+      "Link": "QGIS",
+      "Example": "Rio de Janeiro Map",
+      "Users": ["Kommuner", "Teknikkonsulter"]
+    },
+    {
+      "Name": "Rhinoceros 3D & Grasshopper",
+      "Description": "3D-modellering och algoritmbaserad design som ofta används för arkitektur och stadsplanering.",
+      "Categories": ["3D-modellering", "Visualisering"],
+      "Link": "Rhinoceros",
+      "Example": "MIT CityScope",
+      "Users": ["Arkitekter", "Stadsplanerare", "Ingenjörer"]
+    },
+    {
+      "Name": "CityEngine (Esri)",
+      "Description": "En mjukvara för att skapa stora 3D-städer för stadsplanering och arkitektoniska ändamål.",
+      "Categories": ["3D-modellering", "GIS"],
+      "Link": "",
+      "Example": "Smart Cities 3D",
+      "Users": ["Arkitekter", "Stadsplanerare", "Ingenjörer"]
+    },
+    {
+      "Name": "InfraWorks (Autodesk)",
+      "Description": "Används för infrastrukturdesign och modellering av städer och byggnadsverk.",
+      "Categories": ["Visualisering", "3D-modellering"],
+      "Link": "",
+      "Example": "M City Detroit",
+      "Users": ["Ingenjörer", "Stadsplanerare"]
+    },
+    {
+      "Name": "SimScale",
+      "Description": "En molnbaserad simuleringsplattform för byggnadsteknik och stadsplanering.",
+      "Categories": ["Simulering"],
+      "Link": "SimScale",
+      "Example": "Wind Flow Analysis",
+      "Users": ["Ingenjörer", "Stadsplanerare"]
+    },
+    {
+      "Name": "Twinmotion",
+      "Description": "Ett verktyg för realtidsvisualisering för arkitektur och stadsutveckling.",
+      "Categories": ["Visualisering"],
+      "Link": "",
+      "Example": "Architectural Projects",
+      "Users": ["Arkitekter", "Stadsplanerare"]
+    },
+    {
+      "Name": "FME",
+      "Description": "En dataintegrationsplattform som hanterar data från GIS, CAD och andra källor för stadsplanering.",
+      "Categories": ["Databas", "GIS"],
+      "Link": "",
+      "Example": "City of Oslo",
+      "Users": ["Kommuner", "Teknikkonsulter"]
+    },
+    {
+      "Name": "Digital Twin Platform (Siemens)",
+      "Description": "En avancerad plattform för simulering och analys av städer och infrastruktur.",
+      "Categories": ["Simulering", "Databas"],
+      "Link": "",
+      "Example": "Siemens City of Tomorrow",
+      "Users": ["Ingenjörer", "Stadsplanerare"]
+    },
+    {
+      "Name": "Nablaflow",
+      "Description": "Specialiserad på fluiddynamik och luftflödesanalyser för stadsplanering.",
+      "Categories": ["Simulering"],
+      "Link": "NablaFlow",
+      "Example": "-",
+      "Users": ["Ingenjörer", "Stadsplanerare"]
+    },
+    {
+      "Name": "Cetopo",
+      "Description": "Ett lättanvänt verktyg för att skapa topografiska 3D-modeller av städer.",
+      "Categories": ["3D-modellering"],
+      "Link": "Cetopo",
+      "Example": "-",
+      "Users": ["Arkitekter", "Stadsplanerare"]
+    },
+    {
+      "Name": "Spacio",
+      "Description": "En AI-driven plattform för automatiserad stadsplanering och designanalys.",
+      "Categories": ["3D-modellering", "Visualisering", "Simulering"],
+      "Link": "Spacio",
+      "Example": "-",
+      "Users": ["Arkitekter", "Stadsplanerare"]
+    },
+    {
+      "Name": "Autodesk Forma",
+      "Description": "Molnbaserad plattform för att designa hållbara byggnader och stadsplanering med hjälp av dataanalys.",
+      "Categories": ["3D-modellering", "Visualisering", "Simulering"],
+      "Link": "Autodesk Forma",
+      "Example": "-",
+      "Users": ["Arkitekter", "Ingenjörer"]
+    },
+    {
+      "Name": "Parametric Solutions",
+      "Description": "En konsultbyrå som använder parametrisk design och simulering för stadsplanering och arkitektur.",
+      "Categories": ["3D-modellering", "Visualisering", "Simulering"],
+      "Link": "Parametric Solutions",
+      "Example": "-",
+      "Users": ["Arkitekter", "Teknikkonsulter"]
+    },
+    {
+      "Name": "Paramountric",
+      "Description": "En plattform för att skapa parametriska 3D-modeller och automatisera designprocesser.",
+      "Categories": ["3D-modellering", "Simulering"],
+      "Link": "Paramountric",
+      "Example": "-",
+      "Users": ["Arkitekter", "Ingenjörer"]
+    }
+]

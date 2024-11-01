@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Twin Network Graph</title>
+    <style>
+        svg {
+            width: 100%;
+            height: 90vh;  /* Adjusted height to leave room for controls */
+            border: 1px solid #ccc;
+        }
+        .controls {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <label>
+            <input type="checkbox" id="filterPlatform" checked> Show Platforms
+        </label>
+        <label>
+            <input type="checkbox" id="filterCategory" checked> Show Categories
+        </label>
+        <label>
+            <input type="checkbox" id="filterUser" checked> Show Users
+        </label>
+    </div>
+    <svg id="networkGraph"></svg>
+
+    <!-- Include D3.js Library -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="graph.js" defer></script>
+</body>
+</html>
