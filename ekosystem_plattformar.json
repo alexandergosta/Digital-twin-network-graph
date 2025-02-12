@@ -1,0 +1,428 @@
+[
+    {
+        "Name": ".NET",
+        "Type": "Programspråk",
+        "Interoperability": "Grasshopper, Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "3DS Max",
+        "Type": "CAD",
+        "Interoperability": "Revit, AutoCAD, Vray",
+        "Description": ""
+    },
+    {
+        "Name": "ArcGIS",
+        "Type": "GIS",
+        "Interoperability": "AutoCAD, QGIS, Speckle, FME",
+        "Description": "En plattform för kartläggning och rumslig analys."
+    },
+    {
+        "Name": "Archicad",
+        "Type": "BIM",
+        "Interoperability": "Grasshopper, Twinmotion, Enscape, Cetopo",
+        "Description": ""
+    },
+    {
+        "Name": "AutoCAD",
+        "Type": "CAD",
+        "Interoperability": "3DS Max, ArcGIS, CityEngine, Civil3D, FME, InfraWorks, OpenCities Planner, Python, QGIS, Revit, SketchUp, Speckle",
+        "Description": ""
+    },
+    {
+        "Name": "Autodesk Forma",
+        "Type": "SaaS",
+        "Interoperability": "Revit, Rhino3D",
+        "Description": "Molnbaserad plattform för att designa hållbara byggnader och stadsplanering med hjälp av dataanalys."
+    },
+    {
+        "Name": "Azure",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino Compute",
+        "Description": ""
+    },
+    {
+        "Name": "Blender",
+        "Type": "CAD",
+        "Interoperability": "Unity3D, Unreal Engine, Speckle",
+        "Description": ""
+    },
+    {
+        "Name": "C#",
+        "Type": "Programspråk",
+        "Interoperability": "Rhino3D, Grasshopper, Speckle, Python, Revit, Unity3D, Unreal Engine",
+        "Description": ""
+    },
+    {
+        "Name": "Cetopo",
+        "Type": "SaaS",
+        "Interoperability": "Rhino3D, Grasshopper, Revit, Speckle",
+        "Description": "Ett lättanvänt verktyg för att skapa topografiska 3D-modeller av städer."
+    },
+    {
+        "Name": "ChatGPT",
+        "Type": "Maskininlärning",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "CityEngine",
+        "Type": "GIS",
+        "Interoperability": "ArcGIS, AutoCAD, Unreal Engine, FME",
+        "Description": "En mjukvara för att skapa stora 3D-städer för stadsplanering och arkitektoniska ändamål."
+    },
+    {
+        "Name": "Civil3D",
+        "Type": "BIM",
+        "Interoperability": "Speckle, Revit, Autocad",
+        "Description": ""
+    },
+    {
+        "Name": "Conveyor",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, Revit",
+        "Description": "Proving Ground"
+    },
+    {
+        "Name": "D2P Components",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, Grasshopper",
+        "Description": "Design to Production"
+    },
+    {
+        "Name": "Dalux",
+        "Type": "BIM",
+        "Interoperability": "Revit, Archicad, Tekla Structures, Navisworks, Solibri",
+        "Description": ""
+    },
+    {
+        "Name": "DODO",
+        "Type": "Maskininlärning",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Dynamo",
+        "Type": "Programspråk",
+        "Interoperability": "Grasshopper, Revit, Speckle, Rhino.Inside.Revit",
+        "Description": ""
+    },
+    {
+        "Name": "Enscape",
+        "Type": "Visualisering",
+        "Interoperability": "Revit, SketchUp, Rhino3D, Archicad",
+        "Description": ""
+    },
+    {
+        "Name": "ETABS",
+        "Type": "Simulering",
+        "Interoperability": "Tekla Structures, Revit",
+        "Description": ""
+    },
+    {
+        "Name": "Excel",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, Grasshopper, Archicad, Revit",
+        "Description": ""
+    },
+    {
+        "Name": "FME",
+        "Type": "Datadelning",
+        "Interoperability": "ArcGIS, CityEngine, AutoCAD, Revit, QGIS, Rhino3D, InfraWorks, Speckle, OpenCities Planner, Tekla Structures, SketchUp, Python, Grasshopper",
+        "Description": "En dataintegrationsplattform som hanterar data från GIS, CAD och andra källor för stadsplanering."
+    },
+    {
+        "Name": "GhPython",
+        "Type": "Programspråk",
+        "Interoperability": "Grasshopper, Python",
+        "Description": ""
+    },
+    {
+        "Name": "GITHub",
+        "Type": "Datadelning",
+        "Interoperability": "Python, C#, Rhino.Compute",
+        "Description": ""
+    },
+    {
+        "Name": "GML",
+        "Type": "Programspråk",
+        "Interoperability": "Topologicpy, Topologic",
+        "Description": ""
+    },
+    {
+        "Name": "Grasshopper",
+        "Type": "Programspråk",
+        "Interoperability": ".NET, Archicad, C#, Cetopo, ChatGPT, D2P Components, DODO, Dynamo, Excel, GhPython, Hops, Human UI, Hypar, Kangaroo, Karamba, Ladybug & Honeybee, Link_Dashboards, One Click LCA, PUG, Python, Rhino3D, RhinoCircular, ShapeDiver, SimScale, Sofistik, Synapse, Tesnorflow.NET, Topologic, TopoX, UI+, Wallecei, Speckle, FME",
+        "Description": ""
+    },
+    {
+        "Name": "Hektar",
+        "Type": "SaaS",
+        "Interoperability": "Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "Hops",
+        "Type": "Datadelning",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Human UI",
+        "Type": "Gränssnitt",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Hypar",
+        "Type": "Datadelning",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "InfraWorks",
+        "Type": "CAD",
+        "Interoperability": "Revit, AutoCAD, ArcGIS, FME",
+        "Description": "Används för infrastrukturdesign och modellering av städer och byggnadsverk."
+    },
+    {
+        "Name": "Kangaroo",
+        "Type": "Gränssnitt",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Karamba",
+        "Type": "Simulering",
+        "Interoperability": "Grasshopper, Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "Ladybug & Honeybee",
+        "Type": "Simulering",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Link_Dashboards",
+        "Type": "Gränssnitt",
+        "Interoperability": "Grasshopper",
+        "Description": "Link IO"
+    },
+    {
+        "Name": "Nablaflow",
+        "Type": "Simulering",
+        "Interoperability": "Spacio",
+        "Description": "Specialiserad på fluiddynamik och luftflödesanalyser för stadsplanering."
+    },
+    {
+        "Name": "Navisworks",
+        "Type": "BIM",
+        "Interoperability": "Revit, Archicad, Tekla Structures, Dalux, Solibri",
+        "Description": ""
+    },
+    {
+        "Name": "One Click LCA",
+        "Type": "Simulering",
+        "Interoperability": "Grasshopper, Revit, Tekla Structures, Excel, Archicad, Autodesk Forma, Navisworks",
+        "Description": ""
+    },
+    {
+        "Name": "OpenCities Planner",
+        "Type": "GIS",
+        "Interoperability": "ArcGIS, AutoCAD, Revit, SketchUp, FME",
+        "Description": "En molnbaserad plattform för stadsplanering och 3D-visualisering av städer."
+    },
+    {
+        "Name": "Power BI",
+        "Type": "Visualisering",
+        "Interoperability": "Speckle",
+        "Description": ""
+    },
+    {
+        "Name": "PUG",
+        "Type": "Maskininlärning",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Python",
+        "Type": "Programspråk",
+        "Interoperability": "Blender, QGIS, Rhino3D, Grasshopper, SimScale, FME, Speckle, GitHub, Python, Hypar, Revit",
+        "Description": ""
+    },
+    {
+        "Name": "QGIS",
+        "Type": "GIS",
+        "Interoperability": "ArcGIS, AutoCAD, Speckle, FME",
+        "Description": "Ett öppet GIS-system för analys och visualisering av geografisk information."
+    },
+    {
+        "Name": "Revit",
+        "Type": "BIM",
+        "Interoperability": "3DS Max, AutoCAD, Autodesk Forma, C#, Cetopo, Civil3D, Conveyor, Dalux, Dynamo, Enscape, ETABS, Excel, FME, InfraWorks, Navisworks, One Click LCA, OpenCities Planner, Python, Rhino.Inside.Revit, Robot, SketchUp, Solibri, Twinmotion, Vray, Unreal Engine",
+        "Description": ""
+    },
+    {
+        "Name": "Rhino Compute",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, ",
+        "Description": ""
+    },
+    {
+        "Name": "Rhino.Inside.Revit",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, Revit",
+        "Description": ""
+    },
+    {
+        "Name": "Rhino3D",
+        "Type": "CAD",
+        "Interoperability": "Speckle, Grasshopper, Enscape",
+        "Description": "3D-modellering och algoritmbaserad design som ofta används för arkitektur och stadsplanering."
+    },
+    {
+        "Name": "RhinoCircular",
+        "Type": "Datadelning",
+        "Interoperability": "Grasshopper, Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "Robot",
+        "Type": "Simulering",
+        "Interoperability": "Revit",
+        "Description": ""
+    },
+    {
+        "Name": "Semantic",
+        "Type": "Datadelning",
+        "Interoperability": "Rhino3D, Power BI",
+        "Description": ""
+    },
+    {
+        "Name": "ShapeDiver",
+        "Type": "SaaS",
+        "Interoperability": "Grasshopper, Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "SimScale",
+        "Type": "Simulering",
+        "Interoperability": "Grasshopper",
+        "Description": "En molnbaserad Simuleringsplattform för byggnadsteknik och stadsplanering."
+    },
+    {
+        "Name": "SketchUp",
+        "Type": "CAD",
+        "Interoperability": "Revit, AutoCAD",
+        "Description": "En plattform för att visa och dela 3D-modeller online."
+    },
+    {
+        "Name": "Sofistik",
+        "Type": "Simulering",
+        "Interoperability": "Grasshopper, Rhino3D",
+        "Description": ""
+    },
+    {
+        "Name": "Solibri",
+        "Type": "BIM",
+        "Interoperability": "Revit, Archicad, Tekla Structures, Navisworks, Dalux",
+        "Description": ""
+    },
+    {
+        "Name": "Spacio",
+        "Type": "SaaS",
+        "Interoperability": "Rhino3D",
+        "Description": "En AI-driven plattform för automatiserad stadsplanering och designanalys."
+    },
+    {
+        "Name": "Speckle",
+        "Type": "Datadelning",
+        "Interoperability": "ArcGIS, AutoCAD, Blender, C#, Cetopo, Civil3D, Dynamo, FME, Power BI, Python, QGIS, Rhino3D, Tekla Structures, Topologicpy, TopSolid, Unity3D, Unreal Engine, Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Streamlit",
+        "Type": "Programspråk",
+        "Interoperability": "Topologicpy, Topologic",
+        "Description": ""
+    },
+    {
+        "Name": "Synapse",
+        "Type": "Gränssnitt",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Tekla Structures",
+        "Type": "BIM",
+        "Interoperability": "Speckle, ETABS",
+        "Description": ""
+    },
+    {
+        "Name": "Tesnorflow.NET",
+        "Type": "Programspråk",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Topologic",
+        "Type": "BIM",
+        "Interoperability": "Grasshopper, Dynamo, Blender",
+        "Description": ""
+    },
+    {
+        "Name": "Topologicpy",
+        "Type": "Programspråk",
+        "Interoperability": "Speckle, Python, Topologic",
+        "Description": ""
+    },
+    {
+        "Name": "TopoX",
+        "Type": "BIM",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "TopSolid",
+        "Type": "BIM",
+        "Interoperability": "Speckle",
+        "Description": ""
+    },
+    {
+        "Name": "Twinmotion",
+        "Type": "Visualisering",
+        "Interoperability": "Revit, SketchUp, Rhino3D, Archicad, Unreal Engine",
+        "Description": "Ett verktyg för realtidsvisualisering för arkitektur och stadsutveckling."
+    },
+    {
+        "Name": "UI+",
+        "Type": "Gränssnitt",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    },
+    {
+        "Name": "Unity3D",
+        "Type": "Spelmotor",
+        "Interoperability": "Blender, 3DS Max, ArcGIS, Rhino3D, Vray, Speckle",
+        "Description": "En spelmotor som används för att skapa 3D-visualiseringar och Simuleringar."
+    },
+    {
+        "Name": "Unreal Engine",
+        "Type": "Spelmotor",
+        "Interoperability": "Blender, 3DS Max, SketchUp, ArcGIS, Rhino3D, Vray, Speckle, Revit",
+        "Description": "En avancerad 3D-spelmotor som används för högupplösta visualiseringar och Simuleringar."
+    },
+    {
+        "Name": "Vray",
+        "Type": "Visualisering",
+        "Interoperability": "Revit, Rhino3D, SketchUp, 3DS Max, Blender, Unreal Engine",
+        "Description": ""
+    },
+    {
+        "Name": "Wallecei",
+        "Type": "Programspråk",
+        "Interoperability": "Grasshopper",
+        "Description": ""
+    }
+]
