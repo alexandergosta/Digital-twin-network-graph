@@ -17,39 +17,6 @@ const SELECTED_COLOR_SCHEME = "dark";  // Change to "pastel", "dark", or "accent
 // =====================================
 // "https://alexandergosta.github.io/Digital-twin-network-graph/ekosystem_plattformar.json"
 // Load JSON file and create network graph
-function dragStarted(event, d) {
-  if (!event.active) simulation.alphaTarget(0.3).restart();
-  d.fx = d.x;
-  d.fy = d.y;
-}
-
-function dragged(event, d) {
-  d.fx = event.x;
-  d.fy = event.y;
-}
-
-function dragEnded(event, d) {
-  if (!event.active) simulation.alphaTarget(0);
-  d.fx = null;
-  d.fy = null;
-}
-function highlightNodes(event, d) {
-  const connectedNodes = new Set();
-  links.forEach(link => {
-    if (link.source.id === d.id) connectedNodes.add(link.target.id);
-    if (link.target.id === d.id) connectedNodes.add(link.source.id);
-  });
-  connectedNodes.add(d.id);
-
-  node.attr("fill", n => connectedNodes.has(n.id) ? n.color : "#ccc");
-  link.attr("stroke", l => connectedNodes.has(l.source.id) && connectedNodes.has(l.target.id) ? l.color : "#ddd");
-  labels.attr("fill", n => connectedNodes.has(n.id) ? "black" : "#ccc");
-}
-function resetNodes() {
-  node.attr("fill", d => d.color);
-  link.attr("stroke", d => d.color || "grey");
-  labels.attr("fill", "black");
-}
 
 fetch("ekosystem_plattformar.json")
   .then(response => {
@@ -126,6 +93,39 @@ fetch("ekosystem_plattformar.json")
         });
       });
 
+    function dragStarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+    
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+    
+    function dragEnded(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+    function highlightNodes(event, d) {
+      const connectedNodes = new Set();
+      links.forEach(link => {
+        if (link.source.id === d.id) connectedNodes.add(link.target.id);
+        if (link.target.id === d.id) connectedNodes.add(link.source.id);
+      });
+      connectedNodes.add(d.id);
+    
+      node.attr("fill", n => connectedNodes.has(n.id) ? n.color : "#ccc");
+      link.attr("stroke", l => connectedNodes.has(l.source.id) && connectedNodes.has(l.target.id) ? l.color : "#ddd");
+      labels.attr("fill", n => connectedNodes.has(n.id) ? "black" : "#ccc");
+    }
+    function resetNodes() {
+      node.attr("fill", d => d.color);
+      link.attr("stroke", d => d.color || "grey");
+      labels.attr("fill", "black");
+    }
 
     // Draw links first (background)
     const link = svg.selectAll("line")
